@@ -15,17 +15,17 @@ html{
 
 /* custom scroll bar */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 7px;
 }
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-    background: #9566b6;
+    background:blueviolet;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #ab48ab;
+    background: blueviolet;
 }
 
 
@@ -36,6 +36,8 @@ section{
 
 .max-width{
     max-width:1300;
+    padding: 0 30px;
+    margin: auto;
 }
 
 .maximum-width{
@@ -86,7 +88,7 @@ section .title::after{
     font-size: 20px;
     color: blueviolet;
     padding: 0 5px;
-    background: #fff;
+    background: aliceblue;
     transform: translateX(-50%);
 }
 .contact .title::before{
@@ -96,7 +98,7 @@ section .title::after{
     left: 50%;
     width: 200px;
     height: 3px;
-    background: #fff;
+    background: aliceblue;
     transform: translateX(-50%);
 }
 
@@ -152,16 +154,19 @@ section .title::after{
     display: inline-block;
     justify-content: space-between;
 }
+.navbar.sticky .menu a{
+    color: #fff;
+}
 .navbar .menu li a{
     margin-bottom: 5px;
     display: inline-block;
     color: rgb(0, 0, 0);
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: burlywood;
+    color: rgb(19, 203, 154);
 }
 
 /* menu btn styling */
@@ -173,10 +178,10 @@ section .title::after{
     right: 30px;
     bottom: 10px;
     text-align: center;
-    line-height: 45px;
+    line-height: 40px;
     color: white;
     z-index: 9999;
-    font-size: 30px;
+    font-size: 27px;
     border-radius: 6px;
     border-bottom-width: 2px;
     cursor: pointer;
@@ -198,6 +203,7 @@ section .title::after{
 .home{
     display: flex;
     height: 100vh;
+    background: aliceblue;
     color: rgb(14, 13, 13);
     min-height: 500px;
     background-size: cover;
@@ -238,10 +244,76 @@ section .title::after{
     background: none;
 }
 
+.my-fields{
+    background: #111;
+    width: 100%;
+    height:100vh;
+
+    
+}
+.my-fields .fields-content{
+    width:100%;
+    height:auto;
+    border-radius: 10px;
+    padding: 150px 0px;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.my-fields .fields-content .fields-box{
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:auto;
+    height:auto;    
+}
+.my-fields .fields-box .box-content{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 5px;
+    background: #fff;
+    border: 3px solid black;
+}
+.my-fields .fields-box .box-content img{
+    width: 150px;
+    height: 150px;
+}
+
+.my-fields .fields-box .box-content .fields-cont{
+    font-size: 20px;
+    margin: 10px 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.my-fields .fields-box .box-content .fields-cont p{
+    font-size: 16px;
+    padding: 10px 0px;
+}
+.my-fields .fields-box .box-content .fields-cont a{
+    font-size: 16px;
+    color: blue;
+    border-radius: 5px;
+    
+}
+
+
 
 
 
 /* about section styling */
+.about{
+    background: aliceblue;
+}
 .about .about-content .left{
     width: 400px;
     height: auto;
@@ -284,7 +356,7 @@ section .title::after{
 
 /* services section styling */
 .services{
-    color:#fff;
+    color:rgb(231, 244, 255);
     background: #111;
 }
 .services .title::before{
@@ -333,6 +405,9 @@ section .title::after{
 
 
 /* skills section styling */
+.skills{
+    background: aliceblue;
+}
 
 .skills .skills-content .column{
     width: 400px;
@@ -454,12 +529,12 @@ section .title::after{
 .contact .right form .field,
 .contact .right form .fields .field{
     height: 50px;
-    width: 280px;
+    width: 300px;
     margin-bottom: 15px;
 }
 .contact .right form .textarea{
     height: 80px;
-    width: 280px;
+    width: 300px;
 }
 .contact .right form .name{
     margin-right: 10px;
@@ -517,10 +592,16 @@ section .title::after{
 footer{
     position: absolute;
     width: 100%;   
-    height: 40px;
+    height: auto;
     background: blueviolet;
     color: #fff;
     text-align: center;
+}
+footer span p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    align-items: center;
 }
 footer span a{
     color: #fff;
@@ -530,11 +611,17 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+footer .social-media{
+    display: flex;
+    margin: 25px;
+    align-items: center;
+    justify-content: center;
+}
 footer .social-media i{
     font-weight: 500px;
-    font-size: 18px;
-    padding:10px 10px;
-    color: whitesmoke;
+    font-size: 25px;
+    margin-left: 10px;
+    color: #fff;
 }
 footer .social-media i span{
     font-weight: bold;
@@ -544,15 +631,15 @@ footer .social-media i span{
 footer .social-media .fa-linkedin:hover{
     font-weight: 400px;
     color:rgb(0, 208, 188);
-    font-size: 18px;
+    font-size: 24px;
 }
 footer .social-media .fa-instagram:hover{
     color:rgb(253, 95, 179);
-    font-size: 18px;
+    font-size: 24px;
 }
 footer .social-media .fa-github:hover{
     color:rgb(14, 13, 17);
-    font-size: 18px;
+    font-size: 24px;
 }
 footer .social-media i span{
     padding :0px 10px;

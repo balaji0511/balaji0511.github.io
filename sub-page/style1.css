@@ -1,0 +1,98 @@
+
+.certificate .maximum-width{
+    height: auto;
+}
+.certificate{
+    background: aliceblue;
+}
+.certificate h3{
+    font-size: 25px;
+    text-align: center;
+    margin: 30px;
+}
+
+.certificate .cerficate-content{
+    width:100%;
+    height:auto;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.certificate .cerficate-content .cerficate-box{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:auto;
+    height:auto;    
+}
+.certificate .cerficate-box .box-content{
+    width: 350px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    background: whitesmoke;
+    border: 3px solid black;
+}
+.certificate .cerficate-box .box-content .nptel{
+    width: 80px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 100%
+}
+.certificate .cerficate-box .box-content .simpliLearn{
+    width: 80px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 100%
+}
+.certificate .cerficate-box .box-content .letsupgrade{
+    width: 80px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 100%
+}
+.certificate .cerficate-box .box-content .course-content{
+      margin:20px;
+}
+.certificate .cerficate-box .box-content .name{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(3, 3, 212);
+}
+.certificate .cerficate-box .box-content .name:hover{
+    font-size: 21px;
+    font-weight: 600;
+    color: rgb(6, 140, 149);
+}
+.certificate .cerficate-box .box-content .course{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+
+@media (maximum-width: 450px){
+    .certificate .cerficate-content{
+        padding: 30px;
+    }
+
+    .certificate h3{
+        font-size: 20px;
+        margin: 5px;
+    }
+    .certificate .cerficate-box .box-content{
+        width: 300px;
+        height: 100px;
+}
+}
+
