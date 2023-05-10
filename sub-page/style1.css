@@ -43,23 +43,42 @@
     border: 3px solid black;
 }
 .certificate .cerficate-box .box-content .nptel{
-    width: 80px;
+    width: 75px;
+    height: 75px;
     margin: 10px;
     border: 2px solid black;
-    border-radius: 100%
+    border-radius: 100%;
 }
 .certificate .cerficate-box .box-content .simpliLearn{
-    width: 80px;
+    width: 75px;
+    height: 75px;
     margin: 10px;
     border: 2px solid black;
-    border-radius: 100%
+    border-radius: 100%;
 }
 .certificate .cerficate-box .box-content .letsupgrade{
-    width: 80px;
+    width: 75px;
+    height: 75px;
     margin: 10px;
     border: 2px solid black;
-    border-radius: 100%
+    border-radius: 100%;
 }
+.certificate .cerficate-box .box-content .apssdc{
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+.certificate .cerficate-box .box-content .tcs-ion{
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+
+
 .certificate .cerficate-box .box-content .course-content{
       margin:20px;
 }
