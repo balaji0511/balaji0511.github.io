@@ -56,6 +56,13 @@
     border: 2px solid black;
     border-radius: 100%;
 }
+.certificate .cerficate-box .box-content .udemy{
+    width: 75px;
+    height: 70px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 100%;
+}
 .certificate .cerficate-box .box-content .letsupgrade{
     width: 75px;
     height: 75px;
@@ -127,14 +134,14 @@
 .project h3{
     font-size: 25px;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
 .project .project-content{
     width:100%;
     height:auto;
     border-radius: 10px;
-    padding: 50px;
+    padding: 80px;
     display: flex;
     position: relative;
     flex-wrap: wrap;
