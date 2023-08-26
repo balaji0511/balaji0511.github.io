@@ -35,8 +35,8 @@ section{
 }
 
 .max-width{
-    max-width:1300px;
-    padding: 0px 30px;
+    max-width:1300;
+    padding: 0 30px;
     margin: auto;
 }
 
@@ -159,10 +159,10 @@ section .title::after{
 }
 .navbar .menu li a{
     margin-bottom: 5px;
-    display: inline-block;
+    display: block;
     color: rgb(0, 0, 0);
     font-size: 18px;
-    font-weight: 450;
+    font-weight: 400;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
@@ -255,14 +255,14 @@ section .title::after{
 .my-fields .fields-content{
     width:100%;
     height:auto;
-    padding: 100px 50px;
+    padding: 100px 0px;
     border-radius: 10px;
     display: flex;
     position: relative;
     flex-wrap: wrap;
     gap: 20px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .my-fields .fields-content .fields-box{
     position: relative;
@@ -275,7 +275,7 @@ section .title::after{
     padding: 20px 0px;
 }
 .my-fields .fields-box .box-content{
-    width: 400px;
+    width: 380px;
     height: 200px;
     display: flex;
     align-items: center;
@@ -285,7 +285,6 @@ section .title::after{
     border: 3px solid #001F3F;
 }
 .my-fields .fields-box .box-content img{
-    padding: 10px 10px;
     width: 130px;
     height: 130px;
 }
