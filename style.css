@@ -21,11 +21,11 @@ html{
     background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-    background:blueviolet;
+    background:#001F3F;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: blueviolet;
+    background: #001F3F;
 }
 
 
@@ -35,8 +35,8 @@ section{
 }
 
 .max-width{
-    max-width:1300;
-    padding: 0 30px;
+    max-width:1300px;
+    padding: 0px 30px;
     margin: auto;
 }
 
@@ -86,7 +86,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: blueviolet;
+    color: #001F3F;
     padding: 0 5px;
     background: aliceblue;
     transform: translateX(-50%);
@@ -115,7 +115,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: blueviolet;
+    background: #001F3F;
 }
 
 
@@ -132,7 +132,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: blueviolet;
+    color: #001F3F;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -162,11 +162,11 @@ section .title::after{
     display: inline-block;
     color: rgb(0, 0, 0);
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 450;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: rgb(19, 203, 154);
+    color: rgb(14, 166, 174);
 }
 
 /* menu btn styling */
@@ -174,7 +174,7 @@ section .title::after{
     position: fixed;
     height: 35px;
     width: 32px;
-    background: blueviolet;
+    background: #001F3F;
     right: 30px;
     bottom: 7px;
     text-align: center;
@@ -198,70 +198,71 @@ section .title::after{
     filter: brightness(90%);
 }
 
-
 /* home section styling */
-.home{
+.home {
     display: flex;
     height: 100vh;
     background: aliceblue;
     color: rgb(14, 13, 13);
     min-height: 500px;
+    background-image: url(images/design.jpg);
     background-size: cover;
-    background-attachment: fixed;                           
+    background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
 .home .maximum-width{
     width: 100%;
+}
+.home .home-content{
+    align-items: center;
     display: flex;
 }
-.home .home-content .text-1{
-    font-size: 27px;
+.home .home-content  .text-1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 .home .home-content .text-2{
-    font-size: 70px;
-    font-weight: 600;
-    margin-left: -5px;
+    text-align: justify;
+    font-size: 30px;
 }
-.home .home-content .text-3{
-    font-size: 40px;
-    margin: 5px 0;
-}
-.home .home-content a{
+
+.home .home-content  a{
     display: inline-block;
-    background: blueviolet;
-    color: #111;
-    font-size: 20px;
-    padding: 12px 15px;
+    background: rgb(255, 247, 247);
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: 500;
+    padding: 8px 15px;
     margin-top: 10px;
-    font-weight: 450;
     border-radius: 6px;
-    border: 2px solid blueviolet;
+    border: 2px solid rgb(4, 69, 76);
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: blueviolet;
-    font-weight: 500;
+    color: rgb(0, 0, 0);
     background: none;
 }
 
+
+
 .my-fields{
-    background: black;
+    background: #87CEEB;
     width: 100%;
     height:auto;
-
-    
+    border-top: 1px solid #74b6d0;
 }
 .my-fields .fields-content{
     width:100%;
     height:auto;
-    padding: 110px 0px;
+    padding: 100px 50px;
     border-radius: 10px;
     display: flex;
     position: relative;
     flex-wrap: wrap;
     gap: 20px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .my-fields .fields-content .fields-box{
     position: relative;
@@ -271,20 +272,22 @@ section .title::after{
     flex-direction: row;
     width:auto;
     height:auto;    
+    padding: 20px 0px;
 }
 .my-fields .fields-box .box-content{
-    width: 380px;
+    width: 400px;
     height: 200px;
     display: flex;
     align-items: center;
     flex-direction: row;
     border-radius: 5px;
     background: #fff;
-    border: 3px solid rgb(80, 34, 188);
+    border: 3px solid #001F3F;
 }
 .my-fields .fields-box .box-content img{
-    width: 150px;
-    height: 150px;
+    padding: 10px 10px;
+    width: 130px;
+    height: 130px;
 }
 
 .my-fields .fields-box .box-content .fields-cont{
@@ -301,7 +304,7 @@ section .title::after{
 }
 .my-fields .fields-box .box-content .fields-cont a{
     font-size: 16px;
-    color: blue;
+    color: #c21635;
     border-radius: 5px;
     
 }
@@ -312,17 +315,18 @@ section .title::after{
 
 /* about section styling */
 .about{
-    background: aliceblue;
+    background: #87CEEB;
+    border-top: 1px solid #74b6d0;
 }
-.about .about-content .left{
-    width: 400px;
-    height: auto;
+.about .about-content{
+    display: flex;
+    justify-content: space-between;
 }
 .about .about-content .left img{
     height: 300px;
     width: 300px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 150px;
 }
 .about .about-content .right{
     width: 400px;
@@ -337,18 +341,18 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: blueviolet;
-    color: rgb(15, 15, 15);
+    background: #fff;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: 500;
     padding: 7px 14px;
     margin-top: 10px;
     border-radius: 6px;
-    border: 2px solid blueviolet;
+    border: 2px solid #001F3F;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: blueviolet;
+    color: #001F3F;
     background: none;
 }
 
@@ -356,16 +360,17 @@ section .title::after{
 
 /* services section styling */
 .services{
-    color:rgb(231, 244, 255);
-    background: #111;
+    color:#000;
+    background: #87CEEB;
+    border-top: 1px solid #74b6d0;
 }
 .services .title::before{
-    background: #fff;
+    background: #000;
 }
 .services .serv-content .card{
     width: 300px;
     height: 480px;
-    background: #222;
+    background: #cccccc;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -375,7 +380,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: blueviolet;
+    background: #f1f1f1;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -383,12 +388,10 @@ section .title::after{
 .services .serv-content .card .box p{
     text-align: justify;
 }
-.services .serv-content .card:hover .box{
-    transform: scale(1.05);
-}
+
 .services .serv-content .card img{
     border-radius: 5px;
-    border: 3px solid rgb(46, 210, 153);
+    border: 2px solid #000;
     display: flex;
     width: 100%;
     height: auto;
@@ -407,9 +410,13 @@ section .title::after{
 
 /* skills section styling */
 .skills{
-    background: aliceblue;
+    background: #87CEEB;
+    border-top: 1px solid #74b6d0;
 }
-
+.skills .skills-content{
+    display: flex;
+    justify-content: space-between;
+}
 .skills .skills-content .column{
     width: 400px;
 }
@@ -423,20 +430,21 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: blueviolet;
-    color: #fff;
+    background: #fff;
+    color: #000;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 10px;
     margin-bottom: 30px;
     border-radius: 6px;
-    border: 2px solid blueviolet;
+    border: 2px solid #001F3F;
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: blueviolet;
+    color: #000;
     background: none;
+    border: 2px solid 001F3F;
 }
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
@@ -463,10 +471,13 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: burlywood;
+    background: rgb(33, 26, 18);
 }
 .skills-content .right .java::before{
-    width: 80%;
+    width: 90%;
+}
+.skills-content .right .python::before{
+    width: 60%;
 }
 .skills-content .right .html::before{
     width: 80%;
@@ -481,17 +492,21 @@ section .title::after{
 
 
 
-
-
 /* contact section styling */
 .contact{
-    background: #111;
-    color: #fff;
-    
+    background: #87CEEB;
+    color: #000;
+    border-top: 1px solid #74b6d0;
 }
-
+.contact .title::before{
+    background: #000;
+}
+.contact .contact-content{
+    display: flex;
+    justify-content: space-between;
+}
 .contact .contact-content .column{
-    width:500px;
+    width:300px;
     height: auto;
 }
 .contact .contact-content .text{
@@ -515,13 +530,13 @@ section .title::after{
 }
 .contact .contact-content .row img{
     font-size: 25px;
-    color: blueviolet;
+    color: #001F3F;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #fff;
+    color: #000;
 }
 .contact .right form .fields{
     display: flex;
@@ -530,12 +545,13 @@ section .title::after{
 .contact .right form .field,
 .contact .right form .fields .field{
     height: 50px;
-    width: 300px;
+    width: 320px;
     margin-bottom: 15px;
+    padding: 0px 5px;
 }
 .contact .right form .textarea{
     height: 80px;
-    width: 300px;
+    width: 320px;
 }
 .contact .right form .name{
     margin-right: 10px;
@@ -575,12 +591,12 @@ section .title::after{
     border-radius: 6px;
     cursor: pointer;
     flex-wrap: nowrap;
-    background: blueviolet;
-    border: 3px solid blueviolet;
+    background: #001F3F;
+    border: 3px solid #001F3F;
     transition: all 0.3s ease;
   }
   .right form .button-area button:hover{
-    color: blueviolet;
+    color: #001F3F;
     background: none;
     color: #fff;
   }
@@ -594,7 +610,7 @@ footer{
     position: absolute;
     width: 100%;   
     height: auto;
-    background: black;
+    background: #001F3F;
     border-top: 1px solid #fff ;
     color: #fff;
     text-align: center;
@@ -796,9 +812,4 @@ footer .social-media i span{
         line-height: 38px;
     }
 }
-
-
-
-
-
 

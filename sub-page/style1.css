@@ -3,7 +3,9 @@
     height: auto;
 }
 .certificate{
-    background: aliceblue;
+    background-image: url(../images/design.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 .certificate h3{
     font-size: 25px;
@@ -129,7 +131,10 @@
     height: auto;
 }
 .project{
-    background: aliceblue;
+    background-image: url(../images/design.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
 .project h3{
     font-size: 25px;
