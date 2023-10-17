@@ -120,13 +120,13 @@ section .title::after{
 
 
 .navbar .logo{
-    display: flex;
+    display: inline-block;
     width: 100px;
 
 }
 
 .navbar .logo a{
-    margin-left: 15px;
+    margin-left: 30px;
     color: rgb(14, 13, 13);
     font-size: 35px;
     font-weight: 600;
@@ -148,7 +148,6 @@ section .title::after{
     flex-direction:row;
 }
 
-
 .navbar .menu li{
     margin:0 10px;
     list-style: none;
@@ -160,7 +159,7 @@ section .title::after{
 }
 .navbar .menu li a{
     margin-bottom: 5px;
-    display: none;
+    display: block;
     color: rgb(0, 0, 0);
     font-size: 18px;
     font-weight: 400;
@@ -170,20 +169,7 @@ section .title::after{
     color: rgb(14, 166, 174);
 }
 
-.navbar .logo img{
-    margin-top: 5px;
-    margin-left: 10px;
-    cursor: pointer;
-    color: rgb(14, 13, 13);
-    font-size: 35px;
-    font-weight: 600;
-    width: 25px;
-    height: 35px;
-}
-.navbar .logo img
-{
-   display: block;
-}
+
 /* menu btn styling */
 .scroll-btn{
     position: fixed;
