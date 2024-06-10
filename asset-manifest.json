@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4d5c34a7.css",
+    "main.js": "/static/js/main.7f8281ba.js",
+    "static/media/image.png": "/static/media/image.5c1c2a8d797da07c3301.png",
+    "static/media/CaptchaSystem.png": "/static/media/CaptchaSystem.8bdcb80151fe2f4595e9.png",
+    "static/media/apssdc.png": "/static/media/apssdc.12416fba9955e238fe80.png",
+    "static/media/artisticoders.png": "/static/media/artisticoders.2d58d721ccc5ced09575.png",
+    "static/media/homeicons.png": "/static/media/homeicons.55893519d4b768cf9c03.png",
+    "static/media/studentApplication.png": "/static/media/studentApplication.2cf78095548d4fff2e06.png",
+    "static/media/about.svg": "/static/media/about.363a515cf4b94ff7b2f155d26e469880.svg",
+    "static/media/Udemy.png": "/static/media/Udemy.17c41409ecc6c19dddc1.png",
+    "static/media/nptel.png": "/static/media/nptel.dc305d1a611404451817.png",
+    "static/media/pre.svg": "/static/media/pre.74b00c043f4cea5fb393.svg",
+    "index.html": "/index.html",
+    "main.4d5c34a7.css.map": "/static/css/main.4d5c34a7.css.map",
+    "main.7f8281ba.js.map": "/static/js/main.7f8281ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d5c34a7.css",
+    "static/js/main.7f8281ba.js"
+  ]
+}
